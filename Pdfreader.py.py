@@ -18,12 +18,12 @@ First, let's install the necessary libraries.
 """
 
 # Install required packages
-pip install langchain langchain-google-genai langchain_community pypdf chromadb sentence-transformers -q
-!pip install google-generativeai pdfplumber -q
+langchain langchain-google-genai langchain_community pypdf chromadb sentence-transformers -q
+ google-generativeai pdfplumber -q
 
 """Next, let's import all required libraries:"""
 
-pip install streamlit
+streamlit
 
 
 import os
